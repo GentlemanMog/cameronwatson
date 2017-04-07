@@ -1,0 +1,43 @@
+@font-face{
+	font-family: elegant;
+	src: url(fonts/aliquamrit.ttf);
+}
+
+body{
+	background: #0D0D0D;
+	font-family: elegant;
+	color: #B23322;
+/*	padding: 100px;
+	position: relative;
+	display: block;*/
+}
+
+video{
+	object-fit: contain;
+}
+.fullscreen-bg{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	z-index: -100;
+}
+.fullscreen-bg_video{
+	position: absolute;
+	top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+	min-width: 100%;
+	min-height: 100%;
+}
+.tempscreen{
+	position: absolute;
+	left: 40%;
+	top: 10%; 
+}
+.tempscreen h1{
+	font-size: 50px; 
+}
