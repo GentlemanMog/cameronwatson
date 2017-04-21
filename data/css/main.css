@@ -35,6 +35,10 @@ section.featured-items{
 video{
 	object-fit: contain;
 }
+video::-internal-media-controls-download-button {
+    display:none;
+}
+
 img{
   object-fit: contain;
 }
