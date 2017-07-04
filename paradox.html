@@ -16,7 +16,9 @@
     <link rel="stylesheet" type="text/css" href="data/plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="data/css/main.css">
     <link rel="stylesheet" type="text/css" href="data/css/video-style.css">
-    <link rel="stylesheet" type="text/css" href="data/css/video-style.css">
+    <link rel="stylesheet" type="text/css" href="data/css/mfp.css">
+    <link rel="stylesheet" type="text/css" href="data/css/owlSlider.css">
+    <link rel="stylesheet" type="text/css" href="data/css/animated.css">
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -39,7 +41,7 @@
                 
                     <div class="col-sm-3">
                         <div  class="logo">
-                            <a href="index.html">GentlemanMog</a>
+                            <a href="index.html">Cameron Watson</a>
                         </div>
                     </div>
                     
@@ -58,16 +60,13 @@
                                     <ul class="nav navbar-nav navbar-right">
                                         <li class="active"><a class="smoth-scroll" href="#top">Top <div class="ripple-wrapper"></div></a>
                                         </li>
-                                        <li><a class="smoth-scroll" href="#about">About</a>
+                                        <li><a class="smoth-scroll" href="#intro">about</a>
                                         </li>
-                                        <li><a class="smoth-scroll" href="#portfolio-grid">Portfolio</a>
+                                        <li><a class="smoth-scroll" href="#features">Features</a>
                                         </li>
-                                        <li><a class="smoth-scroll" href="#skills">Skills</a>
+                                        <li><a class="smoth-scroll" href="#developers">Developers</a>
                                         </li>
-                                        <li><a class="smoth-scroll" href="#services">Services</a>
-                                        </li>
-                                        <li><a class="smoth-scroll" href="#contact">Contact</a>
-                                        </li>
+                                        
                                     </ul>
                                 </div>
                             </div>
@@ -85,30 +84,23 @@
    
 
 
-<div class="main-wrapper-onepage main oh">
+    <section class="hero-wrap text-center oh home-section">
 
-
-    <section class="hero-wrap video-container text-center">
-
-      <div class="container container-full-height">
-        <div class="video-wrap"
-          data-vide-bg="mp4: video/video, webm: video/video, ogv: video/video, poster: video/video"
-          data-vide-options="posterType: jpg, loop: true, muted: true, position: 50%">
+      <div class="container">
+        <div class="video-wrap">
           <div class="video-overlay"></div>
           <div class="video-img"></div>
         </div>
 
         <div class="hero-holder">
           <div class="hero-message text-rotator">
-            <h1><span class="rotate">You Have 60 Seconds, to stop the Loop, and move time forward</span></h1>
+            <h1><span class="rotate">You Have 60 Seconds, to stop the Loop, and save time!</span></h1>
             <h2 class="hero-subtitle hidden-xs">Paradox is a time-travelling 3d puzzle platformer in which you are your own worst enemy.</h2>
             <div class="buttons-holder mt-30">
               <a href="data/resources/videos/Paradox Trailer.mp4" class="btn btn-lg btn-transparent lightbox-video mfp-iframe">Play Video</a>
             </div>
             <div class="local-scroll">
-              <a href="#intro" class="scroll-down">
-                <i class="fa fa-angle-down"></i>
-              </a>
+              <a href="#intro" class="scroll-down"></a>
             </div>
           </div>
         </div>
@@ -122,12 +114,17 @@
         <div class="row">
 
           <div class="col-sm-8 col-sm-offset-2 text-center wow slideInUp" data-wow-duration="1.2s" data-wow-delay="0s">
-            <h2 class="intro-heading heading-frame">Paradox</h2>
+            <div class="intro-heading heading-frame">
+              <img src="data/resources/images/paradox/Screen5-MainMenu.png">
+            </div>
+
             <p class="intro-text mb-60">
-              We continuosly seek between design and technology. For over a decade, we've helped businesses to craft honest, emotional experiences through strategy, brand development, graphic design, web design. Our team hand picked to provide the right balance of skills to work.
+
+            In the Game "Paradox" you play as a being known only as Onyx, a time traveller who mysteriously got stuck in an endless loop between time and space. The only way for her to escape the infinate cycle is to fix time itself, in order to complete her mission she must collect all the fragmented “Hours” throughout the various loop cycles and ultimatly leave the empty worlds behind. </p>
+            <p class="intro-text mb-60">However, she has already done this before and it is up to the player to guide her through the infinate possibilities of past-selves and minefields of paradox's to stop the endless cycle and save time.
+
             </p>
 
-            <img src="" alt="" />
           </div>
 
         </div>
@@ -135,125 +132,12 @@
     </section>
 
 
-    <!-- Results -->
-    <section class="result-boxes">
-      <div class="container-fluid">
-        <div class="row">
-
-          <div class="col-md-4 nopadding">
-            <div class="statistic result-box result-box-first">
-              <div class="result-wrap clearfix">
-                <i class="icon icon-ChemicalGlass"></i>
-                <span class="timer" data-from="0" data-to="1200"></span>
-                <span class="counter-text">Design Experiments</span>
-              </div>              
-            </div>
-          </div> <!-- end first result box -->
-
-          <div class="col-md-4 nopadding">
-            <div class="statistic result-box result-box-second">
-              <div class="result-wrap clearfix">
-                <i class="icon icon-Cup"></i>
-                <span class="timer" data-from="0" data-to="578"></span>
-                <span class="counter-text">Awards Won</span>
-              </div>            
-            </div>
-          </div> <!-- end second result box -->
-
-          <div class="col-md-4 nopadding">
-            <div class="statistic result-box result-box-third">
-              <div class="result-wrap clearfix">
-                <i class="icon icon-Mail"></i>
-                <span class="timer" data-from="0" data-to="12489"></span>
-                <span class="counter-text">Messages Sent</span> 
-              </div>            
-            </div>
-          </div> <!-- end third result box -->
-
-        </div>
-      </div>
-    </section> <!-- end results-->
-
-
-    <!-- Our Services -->
-    <section class="section-wrap bg-light pb-mdm-50 pb-130" id="services">
+    <section id="features" class="section-wrap promo-section bg-dark">
       <div class="container">
-
-        <div class="row heading">
-          <div class="col-md-6 col-md-offset-3">
-            <h2 class="text-center bottom-line">Our Services</h2>
-            <p class="subheading text-center">Continuously Creating Daring Digital Solutions</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4 service-item">
-            <div class="service-item-box icon-effect-1 icon-effect-1a text-center">
-              <a href="#">
-                <i class="icon icon-Star hi-icon"></i>
-              </a>
-              <h3>Great Design</h3>
-              <p>Our web design team will spend time with our digital marketing team to ensure the core principles of effective websites.</p>     
-            </div>            
-          </div> <!-- end service item -->
-
-          <div class="col-md-4 service-item">
-            <div class="service-item-box icon-effect-1 icon-effect-1a text-center">
-              <a href="#">
-                <i class="icon icon-Layers hi-icon"></i>
-              </a>
-              <h3>Perfect Coding</h3>
-              <p>Our web design team will spend time with our digital marketing team to ensure the core principles of effective websites.</p>     
-            </div>            
-          </div> <!-- end service item -->
-
-          <div class="col-md-4 service-item">
-            <div class="service-item-box icon-effect-1 icon-effect-1a text-center">
-              <a href="#">
-                <i class="icon icon-Chart hi-icon"></i>
-              </a>
-              <h3>Marketing</h3>
-              <p>Our web design team will spend time with our digital marketing team to ensure the core principles of effective websites.</p>     
-            </div>            
-          </div> <!-- end service item -->
-
-          <div class="col-md-4 service-item">
-            <div class="service-item-box icon-effect-1 icon-effect-1a text-center">
-              <a href="#">
-                <i class="icon icon-User hi-icon"></i>
-              </a>
-              <h3>Support</h3>
-              <p>Our web design team will spend time with our digital marketing team to ensure the core principles of effective websites.</p>     
-            </div>            
-          </div> <!-- end service item -->
-
-          <div class="col-md-4 service-item">
-            <div class="service-item-box icon-effect-1 icon-effect-1a text-center">
-              <a href="#">
-                <i class="icon icon-Settings hi-icon"></i>
-              </a>
-              <h3>Development</h3>
-              <p>Our web design team will spend time with our digital marketing team to ensure the core principles of effective websites.</p>     
-            </div>            
-          </div> <!-- end service item -->
-
-          <div class="col-md-4 service-item">
-            <div class="service-item-box icon-effect-1 icon-effect-1a text-center">
-              <a href="#">
-                <i class="icon icon-DesktopMonitor hi-icon"></i>
-              </a>
-              <h3>Web Design</h3>
-              <p>Our web design team will spend time with our digital marketing team to ensure the core principles of effective websites.</p>     
-            </div>            
-          </div> <!-- end service item -->
-          
-        </div>
+                <div class="col-lg-12 text-center section-title">
+                    <h2>Features</h2>
+                </div>
       </div>
-    </section> <!-- end services -->
-
-
-    <!-- Promo Section -->
-    <section class="section-wrap promo-section bg-dark">
 
       <div id="owl-promo" class="owl-carousel owl-theme">
 
@@ -262,18 +146,14 @@
             <div class="row">
 
               <div class="col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
-                <img src="" alt="">        
+                <img src="data/resources/images/paradox/Screen4-Effects.png" alt="">        
               </div>
               
               <div class="col-md-6 promo-description">
-                <p class="subheading">Chase Your Dream</p>
-                <h3 class="color-white">Best Html Template Ever</h3>
-                <p class="mb-30"> We want to tell your brand’s story with quality content that will help you inspire your audience, build meaningful connections and grow your success. Different marketing goals mean different content tools.</p> 
-                <a href="#" class="btn btn-lg btn-color">Purchase Now</a>
-                <div class="customNavigation mt-40">
-                  <a class="prev"><i class="icon arrow_left"></i></a>
-                  <a class="next"><i class="icon arrow_right"></i></a>
-                </div>
+                <p class="subheading">Restore Time by</p>
+                <h3 class="color-white">Collecting Hourglasses</h3>
+                <p class="mb-30"> The "Hours" are fragmented, they must be collected in order for the loop cycle to end. Collecting all 12 grants you passage out of the current loop and into another, however there is a catch. Each "Hour" collected you are forcefully rewound to the beginning!!</p> 
+                
               </div>
 
             </div>
@@ -285,18 +165,14 @@
             <div class="row">
 
               <div class="col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-                <img src="" alt="">        
+                <img src="data/resources/images/paradox/Screen2-Day.png" alt="">        
               </div>
               
               <div class="col-md-6 promo-description">
-                <p class="subheading">Chase Your Dream</p>
-                <h3 class="color-white">Touch Owl Carousel Slider</h3>
-                <p class="mb-30"> We want to tell your brand’s story with quality content that will help you inspire your audience, build meaningful connections and grow your success. Different marketing goals mean different content tools.</p> 
-                <a href="#" class="btn btn-lg btn-color">Purchase Now</a>
-                <div class="customNavigation mt-40">
-                  <a class="prev"><i class="icon arrow_left"></i></a>
-                  <a class="next"><i class="icon arrow_right"></i></a>
-                </div>
+                <p class="subheading">Watch your step!</p>
+                <h3 class="color-white">Avoid your Past-Selves</h3>
+                <p class="mb-30"> Each step you take, each action you do, counts! each time an "Hour" has been saved an image of yourself appears, which projects all the actions you did to get to the previously collected hourglass. Touching your past-self will cause a catastrophic dimensional paradox!</p> 
+                
               </div>
 
             </div>
@@ -308,1222 +184,152 @@
             <div class="row">
 
               <div class="col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
-                <img src="" alt="">        
+                <img src="data/resources/images/paradox/Screen5-Helpout.png" alt="">        
               </div>
               
               <div class="col-md-6 promo-description">
-                <p class="subheading">Chase Your Dream</p>
-                <h3 class="color-white">Self Hosted Video Background</h3>
-                <p class="mb-30"> We want to tell your brand’s story with quality content that will help you inspire your audience, build meaningful connections and grow your success. Different marketing goals mean different content tools.</p> 
-                <a href="#" class="btn btn-lg btn-color">Purchase Now</a>
-                <div class="customNavigation mt-40">
-                  <a class="prev"><i class="icon arrow_left"></i></a>
-                  <a class="next"><i class="icon arrow_right"></i></a>
-                </div>
+                <p class="subheading">Help yourself</p>
+                <h3 class="color-white">You're on your own</h3>
+                <p class="mb-30"> Quite literally your on your own, but being alone can help you. Utilize different loop cycles to reach un-reachable places, move obstacles out of the way, or even reveal new areas! Nobody is here to help, just you!</p> 
+            
               </div>
 
             </div>
           </div>
         </div>
 
-      </div> <!-- end slider -->
-    </section> <!-- end promo section -->
-    
+        <div class="item">
+          <div class="container">
+            <div class="row">
 
-    <!-- Portfolio -->
-    <section class="section-wrap works-grid-3-col-wide pb-0" id="portfolio">
+              <div class="col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                <img src="data/resources/images/paradox/Screen1-night.png" alt="">        
+              </div>
+              
+              <div class="col-md-6 promo-description">
+                <p class="subheading">Time matters</p>
+                <h3 class="color-white">You Have till midnight and its only midday!</h3>
+                <p class="mb-30"> 12 hours seems like a long time, but not when your in a dimensional time loop! As you move, time still goes on, but at an accelerating rate. Once the clock hits midnight all your progress is wasted and you are rewound back to the beginning of your current cycle.</p> 
+            
+              </div>
 
-      <div class="container-fluid">
-
-        <div class="row heading">
-          <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
-            <h2 class="text-center bottom-line">Latest Works</h2>
-            <p class="subheading text-center">We Take Care For Every Detail</p>
+            </div>
           </div>
         </div>
 
-        <div class="grid-3-col grid-wide grid-gutter grayscale">
+        <div class="item">
+          <div class="container">
+            <div class="row">
 
-          <div class="work-item web-design print">
-            <div class="work-img">
-              <img src="" alt="">
-              <div class="work-overlay">        
-                <div class="work-description">
-                  <h3>
-                    <a href="portfolio-single">Poster Mockup</a>
-                  </h3>
-                  <span>
-                    <a href="#">Print</a>
-                  </span>
-                </div>
-                <a href="" class="lightbox-gallery btn btn-lg btn-transparent" title="Poster Mockup">View Work</a>
+              <div class="col-md-6 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                <img src="data/resources/images/paradox/Screen3-Warp.png" alt="">        
               </div>
-            </div>
-          </div> <!-- end work-item -->
-
-          <div class="work-item web-design branding">
-            <div class="work-img">
-              <img src="" alt="">
-              <div class="work-overlay">        
-                <div class="work-description">
-                  <h3>
-                    <a href="portfolio-single">Vimeo Lightbox</a>
-                  </h3>
-                  <span>
-                    <a href="#">Branding</a>
-                  </span>
-                </div>
-                <a href="http://vimeo.com/19270640" class="lightbox-gallery mfp-iframe btn btn-lg btn-transparent">View Work</a>
+              
+              <div class="col-md-6 promo-description">
+                <p class="subheading">Fate has been determined</p>
+                <h3 class="color-white">Avoid the Paradox!</h3>
+                <p class="mb-30"> Onyx's fate has been sealed and progress awaits, she cannot fail by any means, any inclination to do so, causes a paradox. So watch your step, avoid yourself and make sure you get there in time!</p> 
+               
               </div>
+
             </div>
-          </div> <!-- end work-item -->
-
-          <div class="work-item web-design branding">
-            <div class="work-img">
-              <img src="" alt="">
-              <div class="work-overlay">        
-                <div class="work-description">
-                  <h3>
-                    <a href="portfolio-single">Youtube Lightbox</a>
-                  </h3>
-                  <span>
-                    <a href="#">Branding</a>
-                  </span>
-                </div>
-                <a href="https://www.youtube.com/watch?v=Scxs7L0vhZ4?autoplay=1" class="lightbox-gallery mfp-iframe btn btn-lg btn-transparent">View Work</a>
-              </div>
-            </div>
-          </div> <!-- end work-item -->
-
-          <div class="work-item web-design print">
-            <div class="work-img">
-              <img src="" alt="">
-              <div class="work-overlay">        
-                <div class="work-description">
-                  <h3>
-                    <a href="portfolio-single">Brod Identity</a>
-                  </h3>
-                  <span>
-                    <a href="#">Branding</a>
-                  </span>
-                </div>
-                <a href="" class="lightbox-gallery btn btn-lg btn-transparent" title="Brod Identity">View Work</a>
-              </div>
-            </div>
-          </div> <!-- end work-item -->
-
-          <div class="work-item web-design branding">
-            <div class="work-img">
-              <img src="" alt="">
-              <div class="work-overlay">        
-                <div class="work-description">
-                  <h3>
-                    <a href="portfolio-single">Cup Mockup</a>
-                  </h3>
-                  <span>
-                    <a href="#">Branding</a>
-                  </span>
-                </div>
-                <a href="" class="lightbox-gallery btn btn-lg btn-transparent" title="Cup Mockup">View Work</a>
-              </div>
-            </div>
-          </div> <!-- end work-item -->
-
-          <div class="work-item web-design branding">
-            <div class="work-img">
-              <img src="" alt="">
-              <div class="work-overlay">        
-                <div class="work-description">
-                  <h3>
-                    <a href="portfolio-single">Stationery Mockup</a>
-                  </h3>
-                  <span>
-                    <a href="#">Branding</a>
-                  </span>
-                </div>
-                <a href="" class="lightbox-gallery btn btn-lg btn-transparent" title="Stationery Mockup">View Work</a>
-              </div>
-            </div>
-          </div> <!-- end work-item -->
-
-        </div>    
-      </div>
-    </section> <!-- end portfolio-->
-
-
-    <!-- Call to Action -->
-    <section class="call-to-action">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-md-9 col-xs-12">    
-            <h2>Have You Fallen In Love Already With Our Works?</h2>
-          </div>
-          
-          <div class="col-md-3 col-xs-12 cta-button">
-            <a href="#" class="btn btn-lg btn-color">View Portfolio</a>
-          </div>
-
-        </div>
-      </div>
-    </section> <!-- end call to action -->
-
-
-    <!-- Process -->
-    <section class="section-wrap process" style="background-image: url()">
-
-      <div class="container">
-
-        <div class="row heading">
-          <div class="col-md-6 col-md-offset-3">
-            <h2 class="text-center color-white bottom-line">Our Process</h2>
-            <p class="subheading text-center color-white">That's How We Do It</p>
           </div>
         </div>
 
-        <div class="row">
-
-          <div class="col-sm-5ths">
-            <div class="process-item">
-              <div class="process-wrap text-center">
-                <i class="icon icon-ClipboardText"></i>
-                <h3>1. Planning</h3>
-              </div>
-            </div>
-          </div> <!-- end step -->
-
-          <div class="col-sm-5ths">
-            <div class="process-item">
-              <div class="process-wrap text-center">
-                <i class="icon icon-Bulb"></i>
-                <h3>2. Idea</h3>
-              </div>
-            </div>
-          </div> <!-- end step -->
-
-          <div class="col-sm-5ths">
-            <div class="process-item">
-              <div class="process-wrap text-center">
-                <i class="icon icon-Edit"></i>
-                <h3>3. Design</h3>
-              </div>
-            </div>
-          </div> <!-- end step -->
-
-          <div class="col-sm-5ths">
-            <div class="process-item">
-              <div class="process-wrap text-center">
-                <i class="icon icon-Settings"></i>
-                <h3>4. Development</h3>
-              </div>
-            </div>
-          </div> <!-- end step -->
-
-          <div class="col-sm-5ths">
-            <div class="process-item last">
-              <div class="process-wrap text-center">
-                <i class="icon icon-Web"></i>
-                <h3>5. Result</h3>
-              </div>
-            </div>
-          </div> <!-- end step -->
-
-        </div>
-      </div>
-    </section> <!-- process -->
-
-    <!-- Our Team -->
-    <section class="section-wrap pb-0 our-team" id="about-us">
-      <div class="container">
-
-        <div class="row heading">
-          <div class="col-md-6 col-md-offset-3">
-            <h2 class="text-center bottom-line">Meet Our Team</h2>
-            <p class="subheading text-center">Creative Nerds</p>
-          </div>
-        </div>
-
-        <div class="row team-row">
-
-          <div class="col-md-4 col-sm-6 team-wrap">
-            <div class="team-member text-center">
-              <div class="team-img">
-                <img src="" alt="">
-                <div class="overlay">
-                  <div class="team-details text-center">
-                    <p>
-                      Our web design team will spend time with our digital marketing team. 
-                    </p>
-                    <div class="socials mt-20">
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                      <a href="#"><i class="fa fa-google-plus"></i></a>
-                      <a href="#"><i class="fa fa-envelope"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h6 class="team-title">John Marshall</h6>
-              <span>Designer</span>           
-            </div>
-          </div> <!-- end team member -->
-
-          <div class="col-md-4 col-sm-6 team-wrap">
-            <div class="team-member text-center">
-              <div class="team-img">
-                <img src="" alt="">
-                <div class="overlay">
-                  <div class="team-details text-center">
-                    <p>
-                      Our web design team will spend time with our digital marketing team. 
-                    </p>
-                    <div class="socials mt-20">
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                      <a href="#"><i class="fa fa-google-plus"></i></a>
-                      <a href="#"><i class="fa fa-envelope"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h6 class="team-title">Steve Roberts</h6>
-              <span>Photographer</span>           
-            </div>
-          </div> <!-- end team member -->
-
-          <div class="col-md-4 col-sm-6 team-wrap">
-            <div class="team-member last text-center">
-              <div class="team-img">
-                <img src="" alt="">
-                <div class="overlay">
-                  <div class="team-details text-center">
-                    <p>
-                      Our web design team will spend time with our digital marketing team. 
-                    </p>
-                    <div class="socials mt-20">
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                      <a href="#"><i class="fa fa-google-plus"></i></a>
-                      <a href="#"><i class="fa fa-envelope"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h6 class="team-title">Michael Cartney</h6>
-              <span>Designer</span>           
-            </div>
-          </div> <!-- end team member -->
-
-        </div>
-      </div>
-    </section> <!-- end our team -->
+      </div> 
+    </section>
 
 
-    <!-- About us / Progress Bars -->
-    <section class="section-wrap pt-110">
-      <div class="container">
-        <div class="row mt-minus-30">
-
-          <div class="col-sm-6">
-            <div class="about-description mt-30">
-              <h4>About Us</h4>
-              <p>Our web design team will spend time with our digital marketing team to ensure the core principles of effective websites and development.</p>
-              <p>We want to tell your brand’s story with quality content that will help you inspire your audience, build meaningful connections and grow your success. Different marketing goals mean different content tools.</p>
-            </div>
-          </div> <!-- end col -->
-
-          <div class="col-sm-6">
-            <div class="skills-progress" id="skills">
-
-              <h6>Design <span>100%</span></h6>
-              <div class="progress-solid meter">
-                <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="100" class="progress-bar" role="progressbar">
-                  <span class="sr-only">100% Complete</span>
-                </div>
-              </div>
-
-              <h6>Marketing <span>70%</span></h6>
-              <div class="progress-solid meter">
-                <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" class="progress-bar" role="progressbar">
-                  <span class="sr-only">70% Complete</span>
-                </div>
-              </div>
-
-              <h6>Development <span>90%</span></h6>
-              <div class="progress-solid meter" id="animated-skills">
-                <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="90" class="progress-bar" role="progressbar">
-                  <span class="sr-only">90% Complete</span>
-                </div>
-              </div>
-
-            </div>
-          </div> <!-- end col -->   
-
-        </div>
-      </div>
-    </section> <!-- end progress bars -->
+    <section id="developers" class="statistics-section statistics3 section-space-padding bg-cover text-center" data-stellar-background-ratio="0.2"></section>
 
 
-    <!-- From Blog -->
-    <section class="section-wrap bg-light from-blog" id="blog">
-      <div class="container"> 
-
-        <div class="row heading">
-          <div class="col-md-6 col-md-offset-3">
-            <h2 class="text-center bottom-line">From Blog</h2>
-            <p class="subheading text-center">Our Latest News</p>
-          </div>
-        </div>
-
+    <section id="" class="testimonial-section section-space-padding">
         <div class="container">
-
-          <div class="row">
-
-            <div id="owl-blog" class="owl-carousel owl-theme">
-
-              <div class="blog-col">
-                <div class="entry-img">
-                  <a href="blog-single.html">
-                    <img src="" alt="">
-                  </a>
-                </div>
-                <div class="entry-box">
-                  <div class="entry-title">
-                    <h4><a href="blog-single.html">All Process Food Lab Studio</a></h4>
-                  </div>
-                  <ul class="entry-meta">
-                    <li>by <a href="blog-single">John Marshal</a></li>
-                    <li>
-                      <a href="#">July 10, 2015</a>
-                    </li>                   
-                  </ul>
-                  <div class="entry-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
-                    <a href="blog-single.html" class="read-more">Read More</a>
-                  </div>
-                </div>
-              </div> <!-- end post -->
-
-              <div class="blog-col">
-                <div class="entry-img">
-                  <a href="blog-single.html">
-                    <img src="" alt="">
-                  </a>
-                </div>
-                <div class="entry-box">
-                  <div class="entry-title">
-                    <h4><a href="blog-single.html">Amazing magazines</a></h4>
-                  </div>
-                  <ul class="entry-meta">
-                    <li>by <a href="blog-single">John Marshal</a></li>
-                    <li>
-                      <a href="#">July 10, 2015</a>
-                    </li>                   
-                  </ul>
-                  <div class="entry-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
-                    <a href="blog-single.html" class="read-more">Read More</a>
-                  </div>
-                </div>
-              </div> <!-- end post -->
-
-              <div class="blog-col">
-                <div class="entry-img">
-                  <a href="blog-single.html">
-                    <img src="" alt="">
-                  </a>
-                </div>
-                <div class="entry-box">
-                  <div class="entry-title">
-                    <h4><a href="blog-single.html">All Process Food Lab Studio</a></h4>
-                  </div>
-                  <ul class="entry-meta">
-                    <li>by <a href="blog-single">John Marshal</a></li>
-                    <li>
-                      <a href="#">July 10, 2015</a>
-                    </li>                   
-                  </ul>
-                  <div class="entry-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
-                    <a href="blog-single.html" class="read-more">Read More</a>
-                  </div>
-                </div>
-              </div> <!-- end post -->
-
-              <div class="blog-col last">
-                <div class="entry-slider oh">
-                  <div class="flexslider" id="one-img-slide">
-                    <ul class="slides">
-                      <li>
-                        <a href="#">
-                          <img src="" alt="">
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <img src="" alt="">
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <img src="" alt="">
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div> <!-- end flexslider -->
-
-                <div class="entry-box">
-                  <div class="entry-title">
-                    <h4><a href="blog-single.html">All Process Food Lab Studio</a></h4>
-                  </div>
-                  <ul class="entry-meta">
-                    <li>by <a href="blog-single">John Marshal</a></li>
-                    <li>
-                      <a href="#">July 10, 2015</a>
-                    </li>                   
-                  </ul>
-                  <div class="entry-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
-                    <a href="blog-single.html" class="read-more">Read More</a>
-                  </div>
-                </div>
-
-              </div> <!-- end post -->
-
-            </div>
-
-            <div class="customNavigation mt-40 text-center">
-              <a class="prev"><i class="icon arrow_left"></i></a>
-              <a class="next"><i class="icon arrow_right"></i></a>
-            </div>
-
-          </div> <!-- end row -->
-        </div>
-      </div>
-    </section> <!-- end from blog -->
-
-
-    <!-- Testimonials -->
-    <section class="section-wrap parallax-testimonials" style="background-image: url('');">
-
-      <div id="owl-testimonials" class="owl-carousel owl-theme text-center">
-
-        <div class="item">
-          <div class="container testimonial">
             <div class="row">
-              <div class="col-md-10 col-md-offset-1">
-                <i class="fa fa-quote-left"></i>
-                <p class="testimonial-text">I’am amazed, I should say thank you so much for your awesome template. Design is so good and neat, every detail has been taken care these team are realy amazing and talented! I will work only with enigma agency.</p>
-                <h6>John C. Marshall</h6>
-                <span>Art Director</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="container testimonial">
-            <div class="row">
-              <div class="col-md-10 col-md-offset-1">
-                <i class="fa fa-quote-left"></i>
-                <p class="testimonial-text">I’am amazed, I should say thank you so much for your awesome template. Design is so good and neat, every detail has been taken care these team are realy amazing and talented! I will work only with enigma agency.</p>
-                <h6>John C. Marshall</h6>
-                <span>Art Director</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="container testimonial">
-            <div class="row">
-              <div class="col-md-10 col-md-offset-1">
-                <i class="fa fa-quote-left"></i>
-                <p class="testimonial-text">I’am amazed, I should say thank you so much for your awesome template. Design is so good and neat, every detail has been taken care these team are realy amazing and talented! I will work only with enigma agency.</p>
-                <h6>John C. Marshall</h6>
-                <span>Art Director</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section> <!-- end testimonials -->
-
-
-    <!-- Clients -->
-    <section class="section-wrap clients bg-light">
-      <div class="container"> 
-
-        <div class="row heading">
-          <div class="col-md-6 col-md-offset-3">
-            <h2 class="text-center bottom-line">Our Clients</h2>
-            <p class="subheading text-center">They Trust Us</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-4 client-logo">
-            <img src="" alt="">
-          </div>
-          <div class="col-sm-4 client-logo">
-            <img src="" alt="">
-          </div>
-          <div class="col-sm-4 client-logo">
-            <img src="" alt="">
-          </div>
-        </div>
-        <div class="row second-row">
-          <div class="col-sm-4 client-logo">
-            <img src="" alt="">
-          </div>
-          <div class="col-sm-4 client-logo">
-            <img src="" alt="">
-          </div>
-          <div class="col-sm-4 client-logo">
-            <img src="" alt="">
-          </div>
-        </div>
-
-      </div>      
-    </section> <!-- end clients -->
-
-    <!-- Contact -->
-    <section class="section-wrap contact" id="contact">
-      <div class="container">
-
-        <div class="row heading">
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <h2 class="text-center bottom-line">Contact Us</h2>
-            <p class="subheading">Dont hesitate to get touch please fill out this form and we'll get back to you within 48hrs. We hand picked to provide the right balance of skills to work.</p>
-          </div>
-        </div>
-
-        <div class="row">
-
-          <div class="col-md-4">
-            <h5>Get in Touch</h5>
-            <p>Mon-Fri: 8:00 – 20:00</p>
-
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="icon icon-Pointer"></i>
-              </div>
-              <h6>Address</h6>
-              <p>Philippines,<br>
-              Greenwich st. 256/6, 62058</p>
-            </div> <!-- end address -->
-
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="icon icon-Phone"></i>
-              </div>
-              <h6>Call Us</h6>
-              <span>+1 888 5146 3269</span>
-            </div> <!-- end phone number -->
-
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="icon icon-Mail"></i>
-              </div>
-              <h6>E-mail</h6>
-              <a href="mailto:enigmasupport@gmail.com">enigmasupport@gmail.com</a>
-            </div> <!-- end email -->
-
-          </div>
-
-          <div class="col-md-8">
-            <form id="contact-form" action="#">
-
-              <div class="row contact-row">
-                <div class="col-md-6 contact-name">
-                  <input name="name" id="name" type="text" placeholder="Name*">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2>Developers.</h2>
+                    </div>
                 </div>
-                <div class="col-md-6 contact-email">
-                  <input name="mail" id="mail" type="email" placeholder="E-mail*">
+            </div>
+            
+            <div class="row">
+                <div class="testimonial-carousel-list margin-top-20">
+                
+                    <div class="testimonial-word text-center">
+                    <img src="data/resources/images/paradox/ab.png" class="img-responsive" alt="">
+                        <h2>Rachel Baker</h2>
+                        <p>Creative Director, Lead artist</p>
+                    </div>
+                    
+                    <div class="testimonial-word text-center">
+                    <img src="data/resources/images/paradox/cr.png" class="img-responsive" alt="">
+                        <h2>Chris Read</h2>
+                        <p>Programmer, Technical Programmer</p>
+                    </div>
+                    
+                    <div class="testimonial-word text-center">
+                    <img src="data/resources/images/paradox/km.png" class="img-responsive" alt="">
+                        <h2>Kieran Mckay</h2>
+                        <p>Programmer, Level Designer, Play Tester</p>
+                    </div>
+
+                    <div class="testimonial-word text-center">
+                    <img src="data/resources/images/logo.png" class="img-responsive" alt="">
+                        <h2>Cameron Watson</h2>
+                        <p>Technical Artist, Interaction Designer, Effects Artist</p>
+                    </div>
+
+                    <div class="testimonial-word text-center">
+                    <img src="data/resources/images/paradox/jp.png" class="img-responsive" alt="">
+                        <h2>Jack Pervis</h2>
+                        <p>Lead Programmer, Ux/UI Programmer, Audio Engineer</p>
+                    </div>
+
+                    <div class="testimonial-word text-center">
+                    <img src="data/resources/images/paradox/ctw.png" class="img-responsive" alt="">
+                        <h2>Chris Wratt</h2>
+                        <p>Technical Sound Designer, Audio Engineer</p>
+                    </div>
+                    
                 </div>
-              </div>
-
-              <input name="subject" id="subject" type="text" placeholder="Subject"> 
-              <textarea name="comment" id="comment" placeholder="Message"></textarea>
-              <input type="submit" class="btn btn-lg btn-color btn-submit" value="Send Message" id="submit-message">
-              <div id="msg" class="message"></div>
-            </form>
-          </div> <!-- end col -->
-
+            </div>
         </div>
-      </div>
-    </section> <!-- end contact -->
+    </section>
 
 
-    <!-- Google Map -->
-    <div id="google-map" class="gmap" data-address="V Tytana St, Manila, Philippines"></div>
 
-    <!-- Footer -->
-    <footer class="footer minimal bg-dark">
+<footer class="footer minimal bg-dark">
 
       <div class="container">
         <div class="row">
 
           <div class="col-md-4 col-md-offset-4">
             
-            <div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
-              <h2>
-                <a href="#home" class="color-white">Enigma</a>
-              </h2>
+            <div class="footer-logo local-scroll mb-30 wow zoomIn text-center" data-wow-duration="1s" data-wow-delay="0.2s">
+            This project was created and developed for:
+              <img src="data/resources/images/vuw.png">
             </div>
 
-            <div class="socials footer-socials">
-              <a href="#"><i class="fa fa-facebook"></i></a>
-              <a href="#"><i class="fa fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-google-plus"></i></a>
-              <a href="#"><i class="fa fa-linkedin"></i></a>
-              <a href="#"><i class="fa fa-behance"></i></a>
-            </div> <!-- end socials -->
 
             <span class="copyright text-center">
-              ©2015 Enigma  |  Development by <a href="http://deothemes.com/">DeoThemes</a>
+              ©2016 Paradox
             </span>
 
           </div>
 
         </div>
       </div>
-    </footer> <!-- end footer -->
+    </footer> <!-- end footer -->    
 
 
-    <div id="back-to-top">
-      <a href="#top"><i class="fa fa-angle-up"></i></a>
-    </div>
-
-  </div> <!-- end main-wrapper -->
-
-
-
-   <!--  <div class="portfolio-modal modal fade modalimage" id="portfolio-sector1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Paradox</h2>
-                    <hr class="star-primary">
-                    </div>
-                </div>
-                <div class="row"> 
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div id="section1" class="modal-body">
-                                <video class="img-responsive" controls preload="metadata">
-                                <source src="data/resources/videos/Paradox Trailer.mp4" type="video/mp4">
-                                </video>
-                            <div class="col-lg-5">
-                                <p>Section: Game Design.</p>
-                            </div>
-                            <div class="col-lg-2">
-                                <p>Year: 2016</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <p>Role: Enviromental Artist</p>
-                            </div>  
-                        </div> 
-                    </div>
-                    <div class="col-lg-8 col-lg-offset-2">
-                    <hr>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 col-lg-offset-2">
-                        <p>A Time Travelling Puzzle platformer
-                            game that focuses  on a rewinding
-                            mechanic to collect the various
-                            Hourglass’s, avoid past images of
-                            yourself and escape the time loop.
-                            This project was part of a game
-                            development course and was made
-                            with a total of 6 teammembers
-                            (2 Designers, 3 Coders and 1 Sound
-                            Designer). My role consisted of
-                            environmental design, interactive
-                            and static design, along with
-                            special effects and Asset
-                            management within unity and Maya</p>
-
-                    </div>
-                    <div class="col-lg-4">
-                        
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-8 col-lg-offset-2">
-                        <hr>
-                        <p>Asset Examples</p>
-                    </div>
-                </div>
-                <div class="row">        
-                    <div class="col-sm-4 portfolio-item">
-                        <iframe width="350" height="350" src="https://sketchfab.com/models/77022b178c7f47dca09ab7154dc2d22a/embed?ui_infos=0" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe> 
-                        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #1CAAD9;">
-                            Hourglass
-                        </p>
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <iframe width="350" height="350" src="https://sketchfab.com/models/92008883701d472887fd224eff09c20e/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
-                        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #1CAAD9;">
-                            Interactive Elements
-                        </p> 
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <iframe width="350" height="350" src="https://sketchfab.com/models/2f64d6eb064f4943a7881d78cf802184/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe> 
-                        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #1CAAD9;">
-                            Collapsing Bridge
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- Portfolio Grid Section -->
-<!--     <section id="portfolio-grid">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <h2>Portfolio Matrix</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolio-sector1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-responsive" src="data/resources/images/time.gif">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-responsive" src="data/resources/images/data.gif">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-responsive" src="data/resources/images/space.gif">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-responsive" src="data/resources/images/sand.gif">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <video loop muted autoplay class="img-responsive">
-                        <source src="data/resources/videos/artscene.mp4" type="video/mp4">
-                        </video>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img class="img-responsive" src="data/resources/images/ai.gif">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                         <img src="data/resources/images/moody-weather.png" class="img-responsive">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section> -->
-<!-- <video loop muted autoplay class="img-responsive">
-<source src="data/resources/videos/SystemError.mp4" type="video/mp4">
-</video> -->
-
-
-    <!-- Portfolio Modals -->
-    <!-- 
-
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h2>Data Spike</h2>
-                        <hr class="star-primary">
-                    </div>
-                </div>
-                <div class="row"> 
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div id="section1" class="modal-body">
-                                <video class="img-responsive" controls preload="metadata">
-                                <source src="data/resources/videos/DataSpikeMontageTrailer.mp4" type="video/mp4">
-                                </video>
-                                <div class="col-lg-4">
-                                    <p>Section: Game Design.</p>
-                                </div>
-                                <div class="col-lg-2">
-                                    <p>Year: 2015</p>
-                                </div>
-                                <div class="col-lg-6">
-                                    <p>Role: Enviromental Artist/Level Designer</p>
-                                </div>  
-                            </div> 
-                        </div>
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <hr>
-                        </div>
-                    </div>
-
-                <div class="row">
-                    <div class="col-lg-4 col-lg-offset-2">
-                        <p>A Tron-esk  platformer game that revolves around an AI scouring the internet collecting profiles. 
-                        Specific codes from these profiles are required for the AI to access the deeper reaches of the Internet and uncover the mystery within.
-                        This project was part of the first game development course I did and was made with a team of 4 people. 
-                        The roles for this project were primarily shared however I specifically invested in Level design, 
-                        Enviromental design and collectables along with the 
-                        art direction.</p>
-
-                    </div>
-                    <div class="col-lg-4">
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h2>Pandamonium</h2>
-                        <hr class="star-primary">
-                    </div>
-                </div>
-                <div class="row"> 
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div id="section1" class="modal-body">
-                            <video class="img-responsive" controls preload="metadata">
-                            <source src="data/resources/videos/Pandamonium.mp4" type="video/mp4">
-                            </video>
-                            <div class="col-lg-5">
-                                <p>Section: Video/Audio Production.</p>
-                            </div>
-                            <div class="col-lg-2">
-                                <p>Year: 2016</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <p>Role: Visual/Audio Artist</p>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <hr>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 col-lg-offset-2">
-                        <p>An infinite walk-cycle, audio visual 
-                            video about an adventuristic panda
-                            travelling the universe though the 
-                            long road of chaotic melodies.  
-                            Everything is relative to the music, 
-                            including Character animations.This 
-                            was made in unity by me with the 
-                            help of music support and a 
-                            modified version of Frequency 
-                            Domains source code freely 
-                            available on github.The goal here 
-                            was to create a succinct audio
-                            visual experience.</p>
-                    </div>
-                    <div class="col-lg-4">
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h2>Enter the Beast</h2>
-                        <hr class="star-primary">
-                    </div>
-                </div>
-                <div class="row"> 
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div id="section1" class="modal-body">
-                           <video class="img-responsive" controls preload="metadata">
-                            <source src="data/resources/videos/EnterTheBeast.mp4" type="video/mp4">
-                            </video>
-                            <div class="col-lg-5">
-                                <p>Section: Video Production</p>
-                            </div>
-                            <div class="col-lg-2">
-                                <p>Year: 2015</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <p>Role: Animator</p>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <hr>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 col-lg-offset-2">
-                        <p>This video was an animation project that captures the aspects of the renowned videogames, Journey and 
-                            Shadow of the Colossus, a Hunter goes to kill a troubled beast that happens to be his old friend who caused mischief on the trade routes.
-                            Unfortunately this project was left unfinished due to time constraints on the project, 
-                            and is currently being polished and completed. Everything was made by me except the music, 
-                            which was provided to me by a friend free of charge to add to the emmersion of the video experience. </p>
-                    </div>
-                    <div class="col-lg-4">
-
-
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-8 col-lg-offset-2">
-                        <hr>
-                        <p>Asset Examples</p>
-                    </div>
-                </div>
-                <div class="row">        
-                    <div class="col-sm-4 portfolio-item">
-                        <iframe width="350" height="350" src="https://sketchfab.com/models/00f86a63e82b4481a3db352f8f097e54/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
-                        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #1CAAD9;">
-                            Goliadrome
-                        </p> 
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <iframe width="350" height="350" src="https://sketchfab.com/models/00f86a63e82b4481a3db352f8f097e54/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
-                        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #1CAAD9;">
-                            ???
-                        </p> 
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <iframe width="350" height="350" src="https://sketchfab.com/models/00f86a63e82b4481a3db352f8f097e54/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
-                        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #1CAAD9;">
-                            ???
-                        </p> 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h2>?????????????</h2>
-                        <hr class="star-primary">
-                    </div>
-                </div>
-                <div class="row"> 
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div id="section1" class="modal-body">
-                            <video class="img-responsive" controls preload="metadata">
-                            <source src="data/resources/videos/artscene.mp4" type="video/mp4">
-                            </video>
-                            <div class="col-lg-5">
-                                <p>Section: ???</p>
-                            </div>
-                            <div class="col-lg-2">
-                                <p>Year: ???</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <p>Role: ????</p>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <hr>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="">
-                        <p>Stay Tuned</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h2>System Error</h2>
-                        <hr class="star-primary">
-                    </div>
-                </div>
-                <div class="row"> 
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div id="section1" class="modal-body">
-                            <video class="img-responsive" controls preload="metadata">
-                            <source src="data/resources/videos/SystemError.mp4" type="video/mp4">
-                            </video>
-                            <div class="col-lg-5">
-                                <p>Section: Website Design/Production</p>
-                            </div>
-                            <div class="col-lg-2">
-                                <p>Year: 2015</p>
-                            </div>
-                            <div class="col-lg-5">
-                                <p>Role: Back/Front end Developer</p>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <hr>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="modal-body col-lg-8 col-lg-offset-2">
-                        <p>This was a project designed for two courses by me and was 
-                            my initial experimentation for webgl development; however this site was optimized for an old version of 
-                            Chrome and may not be in a viewable state.The project is a manifestation that responds to a manifesto I wrote about how we 
-                            should accept AI as a living creating rather than a static product.</p>
-
-                        <p>Please note that this <a href="http://gentlemanmog.github.io/SystemError/SystemError/index.html">Website</a> is no longer being updated and may have performance issues on the browser you are using. for a more stable experience please use microsoft edge at full screen </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-     <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h2>Moody-Weather</h2>
-                        <hr class="star-primary">
-                    </div>
-                </div>
-                <div class="row"> 
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div id="section1" class="modal-body">
-                            <img src="data/resources/images/moody-weather.png" class="img-responsive">
-                            <div class="col-lg-5">
-                                <p>Section: Website Design/Production</p>
-                            </div>
-                            <div class="col-lg-2">
-                                <p>Year: 2016</p>
-                            </div>
-                            <div class="col-lg-5">
-                                <p>Role: Back end Developer</p>
-                            </div>  
-                        </div>
-                    </div>
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <hr>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="modal-body col-lg-8 col-lg-offset-2">
-                        This Project was part of an Internet design course that focused on real life problems pitched to us by specific companies. Moody-Weather is a simple website that establishes a connection between the Weather and colour, creating a sense of mood within an abstract form. Originally this project was created by me for a single project, however gained 2 other team members for the duration of the development course. My role was focused heavily on coding and implementation, and initially aesthetic design.</p>
-
-                        <p>Please note that this <a href="http://gentlemanmog.github.io/Moody-Weather/">Website</a> is no longer being updated and may have performance issues on the browser you are using. for a more stable experience please use microsoft edge at full screen </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
 
 <script src="data/plugins/jquery/jquery.min.js"></script>
 <script src="data/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
 
-<script src="data/js/pagetransitions.js"></script>
+<script src="data/js/plugin.js"></script>
 <script src="data/js/plugins.js"></script>
 <script src="data/js/scripts.js"></script>
 <script src="data/js/main.js"></script>
