@@ -715,6 +715,14 @@ body.loaded #preloader{
 .statistics2-section {
     background: url(../resources/images/snowfield.jpg);
 }
+.statistics3{
+    background: url(../resources/images/paradox/planet.png);
+    background-position: center 0;
+}
+.statistics4{
+    background: url(../resources/images/dataspike/bg-level.png);
+    background-position: center 600px;
+}
 
 
 /*///////////////////////////////Skills\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
