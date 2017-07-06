@@ -15,6 +15,7 @@
 
 	<link rel="stylesheet" type="text/css" href="data/plugins/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="data/css/main.css">
+    <link rel="stylesheet" type="text/css" href="data/css/mfp.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -220,23 +221,24 @@
                     <li class="filter" data-filter=".misc">Misc</li>
                 </ul>
             </div>
-            
             <div class="portfolio-inner">
                 <div class="row">
                 
                 
                     <div class="col-md-4 col-sm-6 col-xs-12 mix games">
                         <div class="item">
-                           
-                            <a href="paradox.html" class="portfolio-link" >
+                            
+                            <a href="paradox.html" class="portfolio-link paradox" >
+
                                 <img class="img-responsive" src="data/resources/images/time.gif">
                             </a>
                         </div>
+
                     </div>
                     
                     <div class="col-md-4 col-sm-6 col-xs-12 mix games">
                         <div class="item">
-                            <a href="dataspike.html" class="portfolio-link">
+                            <a href="dataspike.html" class="portfolio-link data-spike">
                                 <img class="img-responsive" src="data/resources/images/data.gif">
                             </a>
                         </div>
@@ -244,7 +246,7 @@
                     
                     <div class="col-md-4 col-sm-6 col-xs-12 mix videos">
                         <div class="item">
-                            <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                            <a href="data/resources/videos/Pandamonium.mp4" class="portfolio-link lightbox-video mfp-iframe pandamonium">
                                 <img class="img-responsive" src="data/resources/images/space.gif">
                             </a>
                         </div>
@@ -252,15 +254,31 @@
                     
                     <div class="col-md-4 col-sm-6 col-xs-12 mix mockups videos">
                         <div class="item">
-                            <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                            <a href="data/resources/videos/EnterTheBeast.mp4" class="portfolio-link lightbox-video mfp-iframe enter-the-beast">
                                 <img class="img-responsive" src="data/resources/images/sand.gif">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix mockups videos">
+                        <div class="item">
+                            <a href="data/resources/videos/Mockumentary-NZShoppingTrolley_CamWatson.mp4" class="portfolio-link lightbox-video mfp-iframe nzsp">
+                                <img class="img-responsive" src="data/resources/images/mockst.gif">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix mockups videos">
+                        <div class="item">
+                            <a href="data/resources/videos/Unnerving.mp4" class="portfolio-link lightbox-video mfp-iframe unnerve">
+                                <img class="img-responsive" src="data/resources/images/uneasy.gif">
                             </a>
                         </div>
                     </div>
                     
                     <div class="col-md-4 col-sm-6 col-xs-12 mix wordpress misc">
                         <div class="item">
-                            <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                            <a href="data/resources/videos/artscene.mp4" class="portfolio-link lightbox-video mfp-iframe questionmark">
                                 <video loop muted autoplay class="img-responsive">
                                 <source src="data/resources/videos/artscene.mp4" type="video/mp4">
                                 </video>
@@ -268,17 +286,18 @@
                         </div>
                     </div>
                     
-                    <div class="col-md-4 col-sm-6 col-xs-12 mix websites" title="Project Title">
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix websites">
                         <div class="item">
-                            <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                            <a href="data/resources/videos/SystemError.mp4" class="portfolio-link lightbox-video mfp-iframe system-error">
                                 <img class="img-responsive" src="data/resources/images/ai.gif">
                             </a>
                         </div>
+                        <a href="http://gentlemanmog.github.io/SystemError/SystemError/index.html" class="portfolio-link content-link">&rarr; View Website <sup class="citation">* working with 'MSEdge' only</sup> &larr;</a>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12 mix wordpress websites">
                         <div class="item">
-                            <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                            <a href="http://gentlemanmog.github.io/Moody-Weather/" class="portfolio-link moody-weather">
                                  <img src="data/resources/images/moody-weather.png" class="img-responsive">
                             </a>
                         </div>
@@ -957,6 +976,8 @@
 
 <script src="data/js/plugin.js"></script>
 <script src="data/js/pagetransitions.js"></script>
+<script src="data/js/plugins.js"></script>
+<script src="data/js/scripts.js"></script>
 <script src="data/js/main.js"></script>
 
 
