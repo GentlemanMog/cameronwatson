@@ -40,40 +40,20 @@
         
         
         
-       /* Mobile Navigation Hide or Collapse on Click */
+       // /* Mobile Navigation Hide or Collapse on Click */
         
-        $(document).on('click', '.navbar-collapse.in', function (e) {
-            if ($(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle') {
-                $(this).collapse('hide');
-            }
-        });
-        $('body').scrollspy({
-            target: '.navbar-collapse',
-            offset: 195
+       //  $(document).on('click', '.navbar-collapse.in', function (e) {
+       //      if ($(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle') {
+       //          $(this).collapse('hide');
+       //      }
+       //  });
+       //  $('body').scrollspy({
+       //      target: '.navbar-collapse',
+       //      offset: 195
         
-         });
+       //   });
          
-        
-        
-        
-        /* Scroll To Top */
-        
-        $(window).scroll(function(){
-        if ($(this).scrollTop() >= 500) {
-            $('.scroll-to-top').fadeIn();
-         } else {
-            $('.scroll-to-top').fadeOut();
-         }
-       });
-    
-    
-        $('.scroll-to-top').click(function(){
-          $('html, body').animate({scrollTop : 0},800);
-          return false;
-        });
-        
-        
-        
+         
         
         /* Typed.js */
         
@@ -127,31 +107,10 @@
             transitionStyle : "backSlide"
         });
         
-        
-        
-        
-        /* Statistics Counter */
-        
-        $('.statistics').appear(function() {
-           var counter = $(this).find('.statistics-count');
-           var toCount = counter.data('count');
-      
-           $(counter).countTo({
-           from: 0,
-           to: toCount,
-           speed: 5000,
-           refreshInterval: 50
-           })
-           });
-           
-          
-         
-         
-              
-           
-            });
+                 
+      });
 
-   })(jQuery);
+})(jQuery);
 
 
 

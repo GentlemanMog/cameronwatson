@@ -1,5 +1,3 @@
-// JavaScript Document
-
 'use strict';
 
 $(document).ready(function(e) {
